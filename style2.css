@@ -56,3 +56,45 @@ h2{
     font-size: 20px;
     background: rgb(31, 31, 103);
 }
+
+
+
+
+
+    
+/* phone responsive layout*/
+
+@media screen and (max-width:480){
+    h2{
+        font-size: 1.5rem;
+
+    }
+    .Clock{
+        flex-direction: rowb !important;
+        flex-wrap: nowrap !important;
+        gap: 8px;
+        justify-content: center !important;
+        
+
+    
+
+        
+
+    }
+    .Clock div{
+        min-width: 65px;
+        padding: 12px 8px;
+        
+
+    }
+    .Clock span{
+        font-size: 1.2rem;
+        width: 30px;
+        height: 30px;
+    }
+    .text{
+        font-size: 0.7rem;
+    }
+
+    
+}
